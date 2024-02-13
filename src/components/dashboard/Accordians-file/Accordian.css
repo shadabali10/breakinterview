@@ -1,0 +1,128 @@
+.accordian-text {
+    color: rgb(87, 85, 85);
+}
+
+.accordian-btn {
+    background-color: #384c72;
+    width: 130px;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.hold {
+    background-color: #d8edff;
+    color: #384c72;
+}
+
+.accordian-btns-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* accordian details starts */
+
+.line {
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(170, 166, 166);
+    position: relative;
+    bottom: 17px;
+}
+
+
+
+.detail-title-text {
+    display: flex;
+    flex-direction: column;
+    color: #384c72;
+    font-size: 13px;
+    font-weight: bold;
+    width: 170px;
+}
+
+.details-1 {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.details-2 {
+    display: flex;
+    gap: 20px;
+}
+
+.LN-users {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    position: relative;
+    bottom: 10px;
+}
+
+.user-img {
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.username {
+    color: #384c72;
+    font-weight: 600;
+
+}
+
+.user-detail {
+    font-size: 14px;
+}
+
+.LN-user {
+    display: flex;
+    gap: 10px;
+}
+
+.details-texts {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.priview-btn {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.btn {
+    width: 100px;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    border: solid #384c72;
+    outline: none;
+    background: none;
+}
+
+#panel3-header {
+
+    box-shadow: 0 5px 5px -5px #969494;
+}
+
+.side-line {
+    display: inline-block;
+    position: absolute;
+    left: 1px;
+    width: 2px;
+    height: 150px;
+    background-color: #9ad169;
+}

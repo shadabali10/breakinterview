@@ -1,0 +1,160 @@
+/* dash wraper */
+.Dash-header-wraper {
+    background-color: #002859;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* dash header */
+.Dash-header {
+    display: flex;
+    padding: 10px;
+    gap: 2rem;
+}
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 6px 0;
+}
+/* ham burgure */
+.burgure {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.Dash-header-titles {
+    display: flex;
+    margin-left: 30px;
+}
+/* main body */
+.Dash-main-body-wraper {
+    display: flex;
+    background-color: #f0f7ff;
+
+}
+/* sidebar */
+.Dash-sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 67px;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.bento-icone-section-1 {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.active-icone {
+    color: #9ad169;
+}
+
+.bento-icone-section-2 {
+
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+/* side bar image */
+.user-image-section {
+    box-shadow: 0 -5px 5px -5px #333;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.user-img1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/* dash main */
+.Dash-main {
+    width: 100%;
+}
+
+.Dash-main-nav-section {
+    background-color: white;
+    width: 100%;
+    padding: 16px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #384c72;
+}
+
+.nav-link {
+    width: 150px;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.act-btn {
+    background-color: #9ad169;
+    color: white;
+}
+
+.Dash-table-titles-section {
+    padding: 15px;
+    font-weight: bold;
+    color: #384c72;
+    font-size: 14px;
+}
+
+.titles {
+    position: relative;
+    top: 20px;
+}
+
+.title-input {
+    width: 100%;
+    background-color: #e3ecf6;
+    color: rgb(47, 46, 46);
+    font-size: large;
+    padding: 6px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 3px;
+    margin-left: 10px;
+}
+
+.search-icone {
+    margin-right: 10px;
+}
+/* pagination */
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
