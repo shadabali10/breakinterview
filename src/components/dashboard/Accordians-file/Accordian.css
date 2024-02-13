@@ -4,7 +4,7 @@
 
 .accordian-btn {
     background-color: #384c72;
-    width: 130px;
+    width: 160px;
     padding: 3px;
     border-radius: 10px;
     text-align: center;
@@ -126,3 +126,16 @@
     height: 150px;
     background-color: #9ad169;
 }
+
+.col-1 {
+    flex: 0 0 auto;
+    width: 10.333333%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 47%;
+}
+
+
+
